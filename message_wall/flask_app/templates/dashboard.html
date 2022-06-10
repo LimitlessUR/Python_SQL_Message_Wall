@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1>Welcome {{ logged_in_user.first_name }}</h1>
+        <a href="/logout">Logout</a>
+        </div>
+        <div class="main">
+            <div class="col-11 p-4 my-4 bg-dark text-light mx-auto">
+            <form action="/create/message" method="POST">
+                <label for="content">Post Message</label>
+                <textarea name="content" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Post Message">
+            </form>
+        </div>
+            <div class="all_messages">
+                {% for message in all_messages %}
+                <div class="card col-10 mx-auto my-5 bg-dark text-light"">
+                    <h3>{{message.content}}</h3>  <p>Posted by: {{message.creator.first_name}}  {{message.creator.last_name}} on {{message.created_at.strftime('%m/%d/%y')}}</p>
+                    {% if message.user_id == session.user_id %}
+                    <a href="/destroy/message/{{message.id}}">Delete</a>
+                    {% else %}
+                    <form action="/messages/{{message.id}}/like" method="post">
+                        <input type="submit" value="Like">
+                    </form>
+                    {% endif %}
+                    <p>List of people who like</p>
+                    <ul>
+                    {% for liker in message.likers %}
+                        <li>{{ liker.first_name}}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div> 
+            
+        </div>
+
+    </div>
+</body>
