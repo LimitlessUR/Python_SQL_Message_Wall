@@ -1,3 +1,5 @@
+Message Wall, Social media style app 
+
 For production user will need to create their own:
 
 DEBUG_STATUS,
