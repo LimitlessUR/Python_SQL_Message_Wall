@@ -18,6 +18,10 @@ pipenv shell
 
 python server.py (Mac users Run: Python3 server.py) 
 
+Used SQL Workbench for Schema construction
+
+Link for download: https://www.mysql.com/products/workbench/
+
 https://user-images.githubusercontent.com/86543368/173107753-d81294d7-0174-4120-a904-8196e0ab8635.mp4
 
 
