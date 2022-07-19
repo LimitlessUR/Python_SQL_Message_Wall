@@ -1,5 +1,5 @@
 Message Wall, Social media style app 
-
+`Tech used: SQL Python Html Bootstrap Jinja syntax` 
 For production user will need to create their own:
 
 DEBUG_STATUS,
