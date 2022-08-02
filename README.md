@@ -1,4 +1,6 @@
-Message Wall, Social media style app 
+# Message Wall 
+
+Social media style app 
 
 `Technologies Used: SQL Python Html Bootstrap Jinja syntax` 
 
