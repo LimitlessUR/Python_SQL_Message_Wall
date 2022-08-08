@@ -6,13 +6,7 @@ Social media style app
 
 For production user will need to create their own:
 
-DEBUG_STATUS,
-
-SECRET_KEY,
-
-DB_USER,
-
-DB_PASSWORD,
+DEBUG_STATUS, SECRET_KEY, DB_USER, DB_PASSWORD,
 
 In Command line:
 
