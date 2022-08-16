@@ -2,7 +2,7 @@
 
 Social media style app 
 
-`Technologies Used: SQL Python Html Bootstrap Jinja syntax` 
+`Technologies Used: SQL Python Html Flask Bootstrap Jinja syntax` 
 
 For production user will need to create their own:
 
