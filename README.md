@@ -6,7 +6,7 @@ Social Media mockup using Python SQL DB HTML CSS (bootstrap).
 
 Here our users can: 
 
-Like a Message, Add a Message , delete their Messages, and see who liked and posted Messages on this incredibly user-friendly interface. 
+Like a Message, Add a Message , Delete their Messages, and see who Liked and Posted Messages on this incredibly user-friendly interface. 
 
 
 For production user will need to create their own:
