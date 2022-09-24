@@ -4,7 +4,7 @@
 
 Social Media mockup using Python SQL DB HTML CSS (bootstrap). 
 
-On Message Wall, our users can: 
+### On Message Wall, our users can: 
 
 Like a Message, Add a Message , Delete their Messages, and see who Liked and Posted Messages on this incredibly user-friendly interface. 
 
