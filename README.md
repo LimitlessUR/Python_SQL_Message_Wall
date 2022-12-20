@@ -20,11 +20,11 @@ DEBUG_STATUS, SECRET_KEY, DB_USER, DB_PASSWORD,
 
 In Command line:
 
-pipenv install flask flask-bcrypt pymysql 
+`pipenv install flask flask-bcrypt pymysql` 
 
-pipenv shell 
+`pipenv shell` 
 
-python server.py (Mac users Run: Python3 server.py) 
+`python server.py` (Mac users Run: Python3 server.py) 
 
 Used SQL Workbench for Schema construction
 
