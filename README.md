@@ -6,7 +6,12 @@ Social Media mockup using Python SQL DB HTML CSS (bootstrap).
 
 ### On Message Wall, our users can: 
 
-Like a Message, Add a Message , Delete their Messages, and see who Liked and Posted Messages on this incredibly user-friendly interface. 
+Like a message, add a message , delete their messages, and see who liked and posted messages on this incredibly user-friendly interface. 
+
+## DB creation with MySQL Workbench 
+
+
+![messagedbpic](https://user-images.githubusercontent.com/86543368/208613912-47e6d052-7a0b-494c-a952-29a3bc404018.png)
 
 
 #### For production user will need to create their own:
